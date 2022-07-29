@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="icon" href="https://kenzie.com.br/favicon.jpeg">
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend><h1>Formulário Kenzie</h1></legend>
+        <div> 
+        <label for="Nome">Nome</label>
+        <input type="text" name="Nome" id="Nome" placeholder="Digite Seu Nome Aqui.." required="True">
+        </div>
+
+        <div>
+        <label for="Email">Email</label>
+        <input type="Email" name="Email" id="Email" placeholder="Digite Seu Email Aqui.." required="True">
+        </div>
+        
+        <div>
+        <label for="Descrição">Descrição</label>
+       <textarea name="Descrição" id="Descrição" placeholder="Fale mais sobre você aqui" required="True" cols="30" rows="5"></textarea>
+         </div>
+
+         <div>
+        <label for="Módulo">Módulo</label>
+        <Select  id=Módulo name="Módulo" required="true">
+            <option value="">Escolher Módulo</option>
+            <option value="Módulo 1">Módulo 1</option>
+            <option Value="Módulo 2">Módulo 2</option>
+            <option Value="Módulo 3">Módulo 3</option>
+        </div>
+        </Select>    
+        <div>
+            <label for="Senha">Senha</label>
+            <input type="password" name="Senha" id="Senha" placeholder="Digite Sua Senha Aqui.." required="True">
+        </div>
+
+            <label for="Confirmar Senha">Confirmar Senha</label>
+            <input type="password" name="Confirmar Senha" id="Confirmar Senha" placeholder="Digite Sua Senha Novamente" required="True">
+        
+            <div>
+        
+    
+        <p>Deseja Receber Novidades em seu E-mail?</p>
+            
+        <label for="Sim">Sim</label>
+            <input type="radio" name="seleção" id="Sim" value="Sim" required="True">
+            
+         <label for="Não">Não</label>   
+            <input type="radio" name="seleção" id="Não" value="Não" required="True">
+
+        <button type="submit">Cadastrar</button>
+        
+        </div>
+        </fieldset>
+    </form>
+    
+
+
+</body>
+</html>
